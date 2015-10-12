@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E369D11BC982F80059EF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E369D01BC982F80059EF8F /* AppDelegate.swift */; };
+		03E369D31BC982F80059EF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E369D21BC982F80059EF8F /* ViewController.swift */; };
+		03E369D61BC982F80059EF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E369D41BC982F80059EF8F /* Main.storyboard */; };
+		03E369D81BC982F80059EF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E369D71BC982F80059EF8F /* Assets.xcassets */; };
+		03E369DB1BC982F80059EF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E369D91BC982F80059EF8F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03E369CD1BC982F80059EF8F /* ContactSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E369D01BC982F80059EF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03E369D21BC982F80059EF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03E369D51BC982F80059EF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E369D71BC982F80059EF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E369DA1BC982F80059EF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03E369DC1BC982F80059EF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E369CA1BC982F80059EF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E369C41BC982F80059EF8F = {
+			isa = PBXGroup;
+			children = (
+				03E369CF1BC982F80059EF8F /* ContactSwitcher */,
+				03E369CE1BC982F80059EF8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E369CE1BC982F80059EF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E369CD1BC982F80059EF8F /* ContactSwitcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E369CF1BC982F80059EF8F /* ContactSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				03E369D01BC982F80059EF8F /* AppDelegate.swift */,
+				03E369D21BC982F80059EF8F /* ViewController.swift */,
+				03E369D41BC982F80059EF8F /* Main.storyboard */,
+				03E369D71BC982F80059EF8F /* Assets.xcassets */,
+				03E369D91BC982F80059EF8F /* LaunchScreen.storyboard */,
+				03E369DC1BC982F80059EF8F /* Info.plist */,
+			);
+			path = ContactSwitcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E369CC1BC982F80059EF8F /* ContactSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E369DF1BC982F80059EF8F /* Build configuration list for PBXNativeTarget "ContactSwitcher" */;
+			buildPhases = (
+				03E369C91BC982F80059EF8F /* Sources */,
+				03E369CA1BC982F80059EF8F /* Frameworks */,
+				03E369CB1BC982F80059EF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactSwitcher;
+			productName = ContactSwitcher;
+			productReference = 03E369CD1BC982F80059EF8F /* ContactSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E369C51BC982F80059EF8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Josh;
+				TargetAttributes = {
+					03E369CC1BC982F80059EF8F = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = J2VAKEVY6P;
+					};
+				};
+			};
+			buildConfigurationList = 03E369C81BC982F80059EF8F /* Build configuration list for PBXProject "ContactSwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03E369C41BC982F80059EF8F;
+			productRefGroup = 03E369CE1BC982F80059EF8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E369CC1BC982F80059EF8F /* ContactSwitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E369CB1BC982F80059EF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E369DB1BC982F80059EF8F /* LaunchScreen.storyboard in Resources */,
+				03E369D81BC982F80059EF8F /* Assets.xcassets in Resources */,
+				03E369D61BC982F80059EF8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E369C91BC982F80059EF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E369D31BC982F80059EF8F /* ViewController.swift in Sources */,
+				03E369D11BC982F80059EF8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03E369D41BC982F80059EF8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E369D51BC982F80059EF8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03E369D91BC982F80059EF8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E369DA1BC982F80059EF8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E369DD1BC982F80059EF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03E369DE1BC982F80059EF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E369E01BC982F80059EF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ContactSwitcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jselbo.ContactSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		03E369E11BC982F80059EF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ContactSwitcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jselbo.ContactSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E369C81BC982F80059EF8F /* Build configuration list for PBXProject "ContactSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E369DD1BC982F80059EF8F /* Debug */,
+				03E369DE1BC982F80059EF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E369DF1BC982F80059EF8F /* Build configuration list for PBXNativeTarget "ContactSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E369E01BC982F80059EF8F /* Debug */,
+				03E369E11BC982F80059EF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E369C51BC982F80059EF8F /* Project object */;
+}
